@@ -72,6 +72,14 @@ docker-compose up --build
 ✅ Staging tables truncated successfully.
 ✅ ETL Data Pipeline has been executed successfully ✅
 ```
+##### If you do not see this message in the terminal, PLEASE RE-RUN THE SAME COMMAND.
+```bash
+docker-compose up --build
+```
+OR:
+```bash
+docker exec cityx_etl python etl.py
+```
 
 #### The PostgreSQL container will remain running and exposed on localhost:5432.
 
